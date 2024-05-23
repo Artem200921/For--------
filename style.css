@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+}
+.sub {
+  font-size: 30px;
+  color: white;
+}
+.div4ik {
+  scroll-behavior: auto;
+  width: 300px;
+  -webkit-animation-name: move;
+  -webkit-animation-duration: 210s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: top;
+  -webkit-animation-timing-function: linear;
+}
+
+.div4ik:hover {
+  -webkit-animation-play-state: paused;
+}
+
+@-webkit-keyframes move {
+  0% {
+    transform: translateY(5%);
+  }
+  100% {
+    transform: translateY(-5000px);
+  }
+}
