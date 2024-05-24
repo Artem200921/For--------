@@ -8,7 +8,7 @@ body {
   font-size: 30px;
   color: white;
 }
-.div4ik {
+#div4ik_ani {
   scroll-behavior: auto;
   width: 300px;
   -webkit-animation-name: move;
@@ -18,8 +18,13 @@ body {
   -webkit-animation-timing-function: linear;
 }
 
-.div4ik:hover {
+#div4ik_ani:hover {
   -webkit-animation-play-state: paused;
+}
+
+.section__span{
+  display: block;
+  margin-top: 50px;
 }
 
 @-webkit-keyframes move {
